@@ -1,0 +1,122 @@
+body{
+    background-color: #0F0F0F;
+    background-image: url(assets/Fonts.jpg);
+}
+
+textarea{
+    width: 1275px;
+    height: 200px;
+}
+
+.first-line,
+.second-line,
+.third-line,
+.fourth-line,
+.fifth-line{
+    display: flex;
+    font-display: row;
+}
+
+div > div{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-out;
+}
+
+div > div:hover{
+    background-color: #7f8487;
+}
+.fourth-line > div:nth-child(13):hover,
+.fifth-line > div:nth-child(7):hover,
+.fifth-line > div:nth-child(8):hover,
+.fifth-line > div:nth-child(9):hover{
+    background-color: #7f8487;
+}
+
+.fourth-line > div:nth-child(13){
+    transform: rotate(180deg);
+
+}
+
+.fifth-line > div:nth-child(7){
+    transform: rotate(90deg);
+
+}
+
+.fifth-line > div:nth-child(8){
+    transform: rotate(0deg);
+
+}
+
+.fifth-line > div:nth-child(9){
+    transform: rotate(270deg);
+
+}
+.second-line > div:nth-child(3),
+.third-line>div:nth-child(2),
+.third-line>div:nth-child(3),
+.third-line>div:nth-child(4)
+{
+    background-color: brown;
+}
+
+
+.first-line div:last-child{
+    width: 110px;
+}
+.second-line div:first-child{
+    width: 100px;
+}
+
+.third-line div:last-child{
+    width: 160px;
+}
+.fourth-line div:first-child,
+.fifth-line div:first-child{
+    width: 75px;
+}
+
+.fifth-line div:nth-child(4){
+    width: 500px;
+}
+
+.active{
+    background-color: #4a5051;
+    transition: 600ms;
+    border-radius: 50%;
+    
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    color: black;
+    opacity:50%;
+    font-size: 24px;
+    line-height: 1;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    resize: none;
+}
+
+p{
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 1.2em;
+}
