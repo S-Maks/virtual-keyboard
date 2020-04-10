@@ -8,7 +8,7 @@ const first__Line = [
     ENGlanguage: 1,
     RUSlanguage: 1,
     upperCase: "!",
-  },
+  },  
   { ENGlanguage: 2, RUSlanguage: 2, upperCase: "@" },
   { ENGlanguage: 3, RUSlanguage: 3, upperCase: "#" },
   { ENGlanguage: 4, RUSlanguage: 4, upperCase: "$" },

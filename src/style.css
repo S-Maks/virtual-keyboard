@@ -1,14 +1,14 @@
 body{
     background-color: #0F0F0F;
-    background-image: url(assets/Fonts.jpg);
+    background-image: url(./assets/Fonts.jpg);
 }
 
 textarea{
     width: 1275px;
     height: 200px;
 }
-
-
+  
+  
 .first-line,
 .second-line,
 .third-line,
