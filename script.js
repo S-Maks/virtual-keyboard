@@ -702,6 +702,7 @@ const choiceShiftChanger = (Shift) => {
         fourth___LineDivs[i].innerHTML = fourth___Line[i].RUSlanguage;
       }
     }
+    
   }
   return !Shift;
 };
